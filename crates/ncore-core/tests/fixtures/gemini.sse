@@ -1,0 +1,6 @@
+: synthetic, field names from python-genai types
+
+data: {"candidates":[{"content":{"parts":[{"text":"Hi"}],"role":"model"},"index":0}],"usageMetadata":{"promptTokenCount":20,"candidatesTokenCount":1,"thoughtsTokenCount":30},"modelVersion":"gemini-x","responseId":"r1"}
+
+data: {"candidates":[{"content":{"parts":[{"text":"!"}],"role":"model"},"finishReason":"STOP","index":0}],"usageMetadata":{"promptTokenCount":20,"candidatesTokenCount":8,"thoughtsTokenCount":30},"modelVersion":"gemini-x","responseId":"r1"}
+

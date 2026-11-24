@@ -1,0 +1,21 @@
+: synthetic, field names from openai-python types; reasoning_content as sent by OpenAI-compatible servers
+data: {"id":"chatcmpl-t1","object":"chat.completion.chunk","created":1,"model":"gpt-x","choices":[{"index":0,"delta":{"role":"assistant","content":""},"finish_reason":null}]}
+
+data: {"id":"chatcmpl-t1","object":"chat.completion.chunk","created":1,"model":"gpt-x","choices":[{"index":0,"delta":{"reasoning_content":"Need the weather."},"finish_reason":null}]}
+
+data: {"id":"chatcmpl-t1","object":"chat.completion.chunk","created":1,"model":"gpt-x","choices":[{"index":0,"delta":{"content":"Checking."},"finish_reason":null}]}
+
+data: {"id":"chatcmpl-t1","object":"chat.completion.chunk","created":1,"model":"gpt-x","choices":[{"index":0,"delta":{"tool_calls":[{"index":0,"id":"call_a","type":"function","function":{"name":"get_weather","arguments":""}}]},"finish_reason":null}]}
+
+data: {"id":"chatcmpl-t1","object":"chat.completion.chunk","created":1,"model":"gpt-x","choices":[{"index":0,"delta":{"tool_calls":[{"index":0,"function":{"arguments":"{\"city\": "}}]},"finish_reason":null}]}
+
+data: {"id":"chatcmpl-t1","object":"chat.completion.chunk","created":1,"model":"gpt-x","choices":[{"index":0,"delta":{"tool_calls":[{"index":0,"function":{"arguments":"\"Paris\"}"}}]},"finish_reason":null}]}
+
+data: {"id":"chatcmpl-t1","object":"chat.completion.chunk","created":1,"model":"gpt-x","choices":[{"index":0,"delta":{"tool_calls":[{"index":1,"id":"call_b","type":"function","function":{"name":"get_time","arguments":"{\"tz\": \"CET\"}"}}]},"finish_reason":null}]}
+
+data: {"id":"chatcmpl-t1","object":"chat.completion.chunk","created":1,"model":"gpt-x","choices":[{"index":0,"delta":{},"finish_reason":"tool_calls"}]}
+
+data: {"id":"chatcmpl-t1","object":"chat.completion.chunk","created":1,"model":"gpt-x","choices":[],"usage":{"prompt_tokens":112,"completion_tokens":40,"total_tokens":152,"prompt_tokens_details":{"cached_tokens":100},"completion_tokens_details":{"reasoning_tokens":5}}}
+
+data: [DONE]
+

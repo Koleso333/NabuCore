@@ -1,0 +1,7 @@
+: synthetic, field names from python-genai types
+data: {"candidates":[{"content":{"role":"model","parts":[{"text":"Need the weather.","thought":true}]},"index":0}],"modelVersion":"gemini-x","responseId":"r-t1"}
+
+data: {"candidates":[{"content":{"role":"model","parts":[{"text":"Checking."}]},"index":0}],"modelVersion":"gemini-x","responseId":"r-t1"}
+
+data: {"candidates":[{"content":{"role":"model","parts":[{"functionCall":{"name":"get_weather","args":{"city":"Paris"}},"thoughtSignature":"sig-gemini-1"}]},"finishReason":"STOP","index":0}],"usageMetadata":{"promptTokenCount":112,"cachedContentTokenCount":100,"candidatesTokenCount":35,"thoughtsTokenCount":5,"totalTokenCount":152},"modelVersion":"gemini-x","responseId":"r-t1"}
+
